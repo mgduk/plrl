@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Matt Dolan",
+    "email": "matt@dolan.me"
+  },
+  "name": "plrl",
+  "version": "1.0.0",
+  "description": "Returns a string with a quantity and pluralised/singularised noun and optional prefix",
+  "main": "lib/plrl.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee -c -o lib/ src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgduk/plrl.git"
+  },
+  "keywords": [
+    "plural",
+    "pluralise",
+    "pluralised",
+    "pluralize",
+    "pluralized",
+    "singular",
+    "singularise",
+    "singularize",
+    "quantity",
+    "noun",
+    "is",
+    "are"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgduk/plrl/issues"
+  },
+  "homepage": "https://github.com/mgduk/plrl#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "expect": "^1.16.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "i": "^0.3.4",
+    "number-to-words": "^1.2.2"
+  }
+}
